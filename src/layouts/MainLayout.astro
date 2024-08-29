@@ -44,7 +44,7 @@ We set the language of the page to English and add classes for scrollbar and scr
     </script>
   </head>
   <body
-    class="bg-neutral-200 selection:bg-yellow-400 selection:text-neutral-700 dark:bg-neutral-800"
+    class="parallax bg-neutral-200 selection:bg-yellow-400 selection:text-neutral-700 dark:bg-neutral-800"
   >
     <!--
     Setting up the main structure of the page.
@@ -58,6 +58,27 @@ We set the language of the page to English and add classes for scrollbar and scr
     </div>
     <FooterSection />
     <style>
+
+
+      .background-image {
+          background-image: url('/panel.jpg'); /* URL de la imagen de fondo */
+          background-size: cover; /* Ajusta la imagen para cubrir todo el área */
+          background-position: center; /* Centra la imagen en el contenedor */
+          background-repeat: no-repeat; /* Evita que la imagen se repita */
+          width: 100%; /* Ancho del contenedor */
+          height: 100vh; /* Alto del contenedor, 100vh ocupa toda la altura de la ventana */
+      }
+
+      .parallax {
+          background-image: url('/panel.jpg'); /* URL de la imagen de fondo */
+          height: 100vh; /* Altura del contenedor igual a la altura de la ventana */
+          background-attachment: fixed; /* Fija la imagen de fondo en su lugar para el efecto parallax */
+          background-position: center; /* Centra la imagen en el contenedor */
+          background-repeat: no-repeat; /* Evita que la imagen se repita */
+          background-size: cover; /* Ajusta la imagen para cubrir todo el área */
+      }
+
+
       /* CSS rules for the page scrollbar */
       .scrollbar-hide::-webkit-scrollbar {
         display: none;

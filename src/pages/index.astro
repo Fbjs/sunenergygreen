@@ -10,7 +10,7 @@ import TestimonialsSection from "@components/sections/testimonials/TestimonialsS
 import PricingSection from "@components/sections/pricing/PricingSection.astro";
 import FAQ from "@components/sections/misc/FAQ.astro";
 import AnnouncementBanner from "@components/ui/banners/AnnouncementBanner.astro";
-import heroImage from "@images/hero-image.avif";
+//import heroImage from "@images/solar-panel.svg";
 import faqs from "@data/faqs.json";
 import features from "@data/features.json";
 import pricing from "@data/pricing.json";
@@ -30,26 +30,26 @@ const avatarSrcs: Array<string> = [
 <MainLayout>
   <AnnouncementBanner
     btnId="dismiss-button"
-    btnTitle="Explore ScrewFast on GitHub"
-    url="https://github.com/mearashadowfax/ScrewFast"
+    btnTitle="Contáctanos en WhatsApp"
+    url="https://wa.me/1234567890"  // Reemplaza 1234567890 con el número de teléfono de WhatsApp
   />
 
   <HeroSection
-    title=`Equip Your Projects with <span
-        class="text-yellow-500 dark:text-yellow-400">ScrewFast</span>`
-    subTitle="Top-quality hardware tools and expert construction services for every project need."
-    primaryBtn="Start Exploring"
-    primaryBtnURL="/products"
-    secondaryBtn="Contact Sales Team"
-    secondaryBtnURL="/contact"
+    title=`Transforma tu Hogar con <span
+        class="text-green-500 dark:text-green-400">SunEnergyGreen</span>`
+    subTitle="Adopta energía solar de forma sencilla y económica. Ofrecemos soluciones personalizadas, desde la instalación hasta el financiamiento, para que puedas disfrutar de energía limpia sin complicaciones."
+    primaryBtn="Descubre Más"
+    primaryBtnURL="/comenzar"
+    secondaryBtn="Habla con un Experto"
+    secondaryBtnURL="/contacto"
     withReview={true}
     avatars={avatarSrcs}
-    rating=`<span class="font-bold">4.8</span> / 5`
-    starCount={4}
-    reviews=`From Over <span class="font-bold">12.8k</span> Reviews`
-    src={heroImage}
-    alt="Stack of ScrewFast product boxes containing assorted hardware tools"
+    rating=`<span class="font-bold">5.0</span> / 5`
+    starCount={5}
+    reviews=`Más de <span class="font-bold">500</span> Hogares Satisfechos`
+    alt="Paneles solares de SunEnergyGreen instalados en un hogar"
   />
+
 
   <ClientsSection
     title="Trusted by Industry Leaders"
