@@ -1,29 +1,29 @@
 {
-  "subTitle": "Ask us anything about our brand and products, and get factual responses.",
+  "subTitle": "Haznos cualquier pregunta sobre nuestra marca y productos, y obtén respuestas precisas.",
   "faqs": [
     {
-      "question": "What types of tools are included in the Starter Kit?",
-      "answer": "The Starter Kit features essential hand and power tools for diverse DIY projects, including hammers, drills, screwdrivers, and a variety of fasteners. It's a curated selection to help beginners and experienced DIYers alike tackle most home improvement tasks."
+      "question": "¿Qué incluye el Kit Solar Inicial?",
+      "answer": "El Kit Solar Inicial cuenta con paneles solares básicos, inversores, y accesorios esenciales para la instalación en viviendas, diseñado tanto para principiantes como para usuarios más experimentados en energía renovable."
     },
     {
-      "question": "Can I upgrade from the Starter Kit to the Professional Toolbox?",
-      "answer": "Absolutely! You can upgrade to the Professional Toolbox at any time to access a wider range of high-quality tools, enjoy priority customer support, and receive exclusive content. Contact our support team for a seamless transition."
+      "question": "¿Puedo actualizarme del Kit Solar Inicial al Plan Avanzado?",
+      "answer": "¡Por supuesto! Puedes actualizarte al Plan Avanzado en cualquier momento para acceder a tecnología solar más avanzada, soporte prioritario y contenido exclusivo. Contacta a nuestro equipo de soporte para hacer la transición."
     },
     {
-      "question": "What discounts are available for bulk orders through the Professional Toolbox plan?",
-      "answer": "Professional Toolbox members are entitled to exclusive discounts on bulk orders, the percentage of which may vary depending on the order volume. Get in touch with us to discuss your needs, and we'll provide a tailored discount structure."
+      "question": "¿Qué descuentos están disponibles para compras en volumen en el Plan Avanzado?",
+      "answer": "Los miembros del Plan Avanzado tienen acceso a descuentos exclusivos en compras en volumen, los cuales varían según el volumen de la orden. Contáctanos para discutir tus necesidades y te ofreceremos una estructura de descuentos personalizada."
     },
     {
-      "question": "What kind of customer support can I expect?",
-      "answer": "All our customers receive dedicated email support. With the Starter Kit, you'll receive our standard support, while the Professional Toolbox plan upgrades you to priority support, meaning faster response times and specialized assistance."
+      "question": "¿Qué tipo de soporte al cliente puedo esperar?",
+      "answer": "Todos nuestros clientes reciben soporte dedicado por correo electrónico. Con el Kit Solar Inicial, obtienes nuestro soporte estándar, mientras que el Plan Avanzado te ofrece soporte prioritario, con tiempos de respuesta más rápidos y asistencia especializada."
     },
     {
-      "question": "How current are the online resources and tutorials?",
-      "answer": "We regularly update our online resources and tutorials to reflect the latest trends in DIY and construction, as well as introductions to new tools and techniques. Our material aims to be comprehensive and user-friendly for all skill levels."
+      "question": "¿Qué tan actualizados están los recursos y tutoriales en línea?",
+      "answer": "Actualizamos regularmente nuestros recursos y tutoriales en línea para reflejar las últimas tendencias en energía solar y renovable, así como nuevas tecnologías y técnicas. Nuestro material está diseñado para ser comprensible y útil para todos los niveles de habilidad."
     },
     {
-      "question": "Does ScrewFast offer services for large-scale construction projects?",
-      "answer": "Yes, our Enterprise Solutions are designed for larger companies requiring comprehensive services. We provide consultation, planning, and supply of high-grade tools and materials, as well as staffing solutions for substantial construction needs. Contact us for a customized quote."
+      "question": "¿SunEnergyGreen ofrece servicios para proyectos de gran escala?",
+      "answer": "Sí, nuestras Soluciones Empresariales están diseñadas para empresas que requieren servicios completos. Ofrecemos consultoría, planificación, suministro de tecnología solar de alta calidad, y soluciones de personal para necesidades energéticas de gran envergadura. Contáctanos para una cotización personalizada."
     }
   ]
 }

@@ -1,11 +1,10 @@
 import ogImageSrc from "@images/social.png";
-
 export const SITE = {
-  title: "ScrewFast",
-  tagline: "Top-quality Hardware Tools",
-  description: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs. Start exploring and contact our sales team for superior quality and reliability.",
-  description_short: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs.",
-  url: "https://screwfast.uk",
+  title: "SunEnergyGreen",
+  tagline: "Energía Solar de Alta Calidad",
+  description: "SunEnergyGreen ofrece soluciones solares personalizadas y servicios expertos en energía renovable para reducir tus costos y mejorar la eficiencia energética de tu hogar. Descubre cómo puedes protegerte del alza de la luz con tecnología de vanguardia.",
+  description_short: "Soluciones solares personalizadas para un futuro sostenible.",
+  url: "https://sunenergygreen.cl",
   author: "Emil Gulamov",
 };
 
@@ -15,7 +14,7 @@ export const SEO = {
   structuredData: {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    inLanguage: "en-US",
+    inLanguage: "es-CL",
     "@id": SITE.url,
     url: SITE.url,
     name: SITE.title,
@@ -30,10 +29,11 @@ export const SEO = {
 };
 
 export const OG = {
-  locale: "en_US",
+  locale: "es_CL",
   type: "website",
   url: SITE.url,
-  title: `${SITE.title}: : Hardware Tools & Construction Services`,
-  description: "Equip your projects with ScrewFast's top-quality hardware tools and expert construction services. Trusted by industry leaders, ScrewFast offers simplicity, affordability, and reliability. Experience the difference with user-centric design and cutting-edge tools. Start exploring now!",
+  title: `${SITE.title}: Energía Solar y Soluciones Renovables`,
+  description: "Ahorra en tus cuentas de luz con SunEnergyGreen. Ofrecemos soluciones solares de alta calidad y servicios personalizados en energía renovable. Únete a la revolución solar y mejora la eficiencia energética de tu hogar.",
   image: ogImageSrc,
 };
+
